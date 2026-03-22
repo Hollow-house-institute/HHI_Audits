@@ -1,0 +1,26 @@
+name: audit-enforce
+
+on:
+  push:
+    branches: [ "*" ]
+
+jobs:
+  enforce-checksum:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate fresh checksums
+        run: |
+          find audits -type f ! -name "sha256_manifest.txt" -exec sha256sum {} \; > audits/checksums/sha256_manifest_new.txt
+
+      - name: Compare with baseline
+        run: |
+          if ! diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
+            echo "❌ Checksum drift detected"
+            diff audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt
+            exit 1
+          fi
+
+      - name: Cleanup
+        run: rm audits/checksums/sha256_manifest_new.txt

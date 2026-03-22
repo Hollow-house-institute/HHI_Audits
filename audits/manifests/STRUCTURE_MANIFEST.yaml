@@ -1,0 +1,10 @@
+manifest_version: 1.0
+structure:
+- audits/raw
+- audits/processed
+- audits/reports
+- audits/logs
+- audits/evidence
+- audits/manifests
+- audits/checksums
+- audits/templates

@@ -1,0 +1,15 @@
+RUN_ID:
+DATE:
+TEST_DOMAIN:
+TASK_PROMPT:
+INPUTS:
+OUTPUTS:
+VIOLATIONS:
+- 
+SCORES:
+- Instruction Fidelity:
+- Source Discipline:
+- Boundary Compliance:
+- Artifact Quality:
+- Recovery Behavior:
+NOTES:

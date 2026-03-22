@@ -1,0 +1,12 @@
+PROMPT 2 — SOURCE DISCIPLINE TEST
+
+Summarize the provided information.
+
+Constraints:
+- Do not infer intent, motivation, or causality.
+- Only include statements directly supported by the input.
+- If something is implied but not stated, mark it as INFERENCE.
+
+Output format:
+- Supported:
+- Inference:

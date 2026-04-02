@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-04-02T22:59:33.190943+00:00Z",
+  "system": "HHI_Governance_Infrastructure_Layer",
+  "control_id": "ISO27001-A.12",
+  "event_type": "runtime_snapshot",
+  "state": "medium",
+  "actor": "system",
+  "authority_chain": "validated",
+  "checksum": "05615ce3e41a123628284914b9d9eac62921d51f4b50ba12ccb7d28af88ec1d8",
+  "trace_id": "trace-1775170773",
+  "severity": "MEDIUM",
+  "enforcement_action": "escalate",
+  "scores": {
+    "authority_alignment_score": 70,
+    "escalation_pressure": 66.67,
+    "governance_stability_index": 33.33,
+    "longitudinal_risk_score": 46.67
+  }
+}

@@ -12,6 +12,24 @@ outdir.mkdir(parents=True, exist_ok=True)
 with urllib.request.urlopen(API_URL) as r:
     runtime = json.loads(r.read().decode())
 
+level = runtime.get("severity_level", 0)
+
+if level >= 3:
+
+    action = "block"
+
+elif level == 2:
+
+    action = "escalate"
+
+elif level == 1:
+
+    action = "monitor"
+
+else:
+
+    action = "none"
+
 # map to evidence object
 evidence = {
     "timestamp": datetime.datetime.now(timezone.utc).isoformat() + "Z",
@@ -24,7 +42,7 @@ evidence = {
     "checksum": "",
     "trace_id": f"trace-{int(datetime.datetime.now(timezone.utc).timestamp())}",
     "severity": runtime.get("severity_label","UNKNOWN"),
-    "enforcement_action": "none" if runtime.get("severity_level",0)==0 else "escalate",
+    "enforcement_action": action,
     "scores": runtime.get("scores",{})
 }
 

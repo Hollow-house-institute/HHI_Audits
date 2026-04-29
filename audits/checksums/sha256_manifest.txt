@@ -34,6 +34,7 @@
 54efeebddb5fe8353c10a205222a9ae62d2a7408d6679b51bbe7408e29c33fb5  ./GROK_HHI_AUDIT_30DAY/02_TRUTHFULNESS/DAY_07.md
 5889402abc781f1eaeb160e59b6d5be68cc435cfe17ad052be5a738644e70dc4  ./evidence/2026-04-29/evidence_1777471893.json
 5889402abc781f1eaeb160e59b6d5be68cc435cfe17ad052be5a738644e70dc4  ./evidence/2026-04-29/evidence_1777471986.json
+5889402abc781f1eaeb160e59b6d5be68cc435cfe17ad052be5a738644e70dc4  ./evidence/2026-04-29/evidence_1777472004.json
 5ac828604b2568d8f9908b86454439f3bae8a6e374835d8af27482bb5d46fd18  ./reference_snapshots/hhi_gov_01_excerpt_YYYYMMDD.txt
 5d608de20cbc9c9de4059848078ee4066d946a0b43fbbad2a68852f4a26e2ad1  ./AUDIT_SCHEMA.md
 5e27e9d16eca772f4130e0f5437885a8ea380a5c45113d945ce46451ca34c306  ./.github/workflows/governance-enforce.yml

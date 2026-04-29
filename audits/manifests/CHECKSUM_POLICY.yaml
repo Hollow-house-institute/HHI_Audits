@@ -1,0 +1,4 @@
+checksum_policy:
+  immutable: enforced
+  exclude:
+    - "*.jsonl"

@@ -16,7 +16,7 @@ echo "Generating checksums..."
 find . -type f \
   ! -path "./.git/*" \
   ! -path "./audits/checksums/sha256_manifest.txt" \
-  ! -path "./governance/telemetry.jsonl" \
+  ! -name "*.jsonl" \
   ! -path "./node_modules/*" \
   -exec sha256sum {} \; \
   | sort > "$OUTPUT"

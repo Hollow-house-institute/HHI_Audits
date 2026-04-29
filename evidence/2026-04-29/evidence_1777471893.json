@@ -1,0 +1,3 @@
+{"event":"conflict_trigger","actor":"subject_A","decision_boundary":"not_enforced","action":"confrontation","outcome":"escalation","escalation":"active","timestamp":"2026-04-29T00:00:00Z"}
+{"event":"escalation","actor":"system","decision_boundary":"absent","action":"verbal_intensity","outcome":"loop_continues","escalation":"high","timestamp":"2026-04-29T00:05:00Z"}
+{"event":"drift","actor":"system","decision_boundary":"absent","action":"pattern_repeat","outcome":"no_resolution","escalation":"persistent","timestamp":"2026-04-29T00:10:00Z"}

@@ -19,7 +19,7 @@ jobs:
 
           echo "Searching for checksum files..."
 
-          FILES=$(find . -type f -name "*.sha256")
+          FILES=$(sha256sum -c CHECKSUMS.sha256
 
           if [ -z "$FILES" ]; then
             echo "No checksum files found"

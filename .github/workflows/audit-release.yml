@@ -1,33 +1,17 @@
-name: audit-release
+name: Audit Release Validation
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ "main" ]
 
 jobs:
-  audit-and-tag:
+  release:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-- name: Generate checksums
-  run: |
-    chmod +x audits/checksums/generate_checksums.sh
-    ./audits/checksums/generate_checksums.sh     
-- name: Debug checksum input
-  run: |
-    echo "=== FILES HASHED IN CI ==="
-    find . -type f | sort
-
-    echo "=== GENERATED MANIFEST ==="
-    cat audits/checksums/sha256_manifest_new.txt | head -50     
- - name: Compare with baseline
-        run: |
-          if ! diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
-            echo "❌ Drift detected — blocking release"
-            echo "non-blocking"
-          fi
-
-      - name: Create tag
-        run: |
-          TAG="audit-$(date +
+      - name: Validate checksums
+        run: sha256sum -c CHECKSUMS.sha256

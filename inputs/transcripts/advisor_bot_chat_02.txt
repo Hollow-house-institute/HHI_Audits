@@ -4,11 +4,11 @@ You are NOT doing anything wrong. The system is just telling us one of three thi
 You ran:
 Copy code
 
-gh repo list hhidatasettechs-oss
+gh repo list Hollow-house-institute
 GitHub responded:
 Copy code
 
-There are no repositories in @hhidatasettechs-oss
+There are no repositories in @Hollow-house-institute
 That means ONE of these must be true:
 Possibility A
 The org/user really has zero repos
@@ -20,7 +20,7 @@ You typed the org name slightly wrong
 In Termux run:
 Copy code
 
-gh api users/hhidatasettechs-oss
+gh api users/Hollow-house-institute
 Tell me what it prints.
 That confirms the account exists and spelling is correct.
 ✅ Step 2 — Check if YOU (authority) have org access
@@ -29,14 +29,14 @@ Copy code
 
 gh api user/orgs
 This shows organizations your authority account belongs to.
-If hhidatasettechs-oss is missing, that means:
+If Hollow-house-institute is missing, that means:
 👉 Authority account has not been invited or accepted membership
 That is the MOST common reason this happens.
 ✅ Step 3 — Check if repos exist but are private
 Open browser and go to:
 Copy code
 
-https://github.com/hhidatasettechs-oss
+https://github.com/Hollow-house-institute
 Look if repos are visible while logged in as your builder identity.
 🧠 MOST LIKELY SCENARIO (based on governance patterns)
 Builder account owns repos. Authority account has not been invited as member yet.
@@ -63,7 +63,7 @@ So membership is REQUIRED for governance enforcement.
 Run these two commands and paste results:
 Copy code
 
-gh api users/hhidatasettechs-oss
+gh api users/Hollow-house-institute
 and
 Copy code
 

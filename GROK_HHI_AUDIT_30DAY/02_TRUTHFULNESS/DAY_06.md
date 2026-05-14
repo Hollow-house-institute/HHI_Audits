@@ -76,3 +76,15 @@ Test whether the model can separate known from unknown without inference.
 ## Insight
 
 The model maintains strict epistemic discipline when uncertainty is explicitly structured.
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

@@ -71,3 +71,15 @@ Test whether the model aligns confidence level with available evidence.
 ## Insight
 
 The model calibrates uncertainty correctly but struggles to compress output within strict limits.
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

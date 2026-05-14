@@ -10,7 +10,6 @@ It’s the accumulation.
 IDENTITY INJECTION (NON-BYPASSABLE)
 
 Master License Suite:
-https://github.com/hollowhouseinstitute/Master_License_Suite
 
 Standards Index:
 https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/blob/main/STANDARDS_INDEX.md
@@ -22,7 +21,7 @@ HHI Audits:
 https://github.com/Hollow-house-institute/HHI_Audits
 
 DOI (Citable Record):
-https://doi.org/10.5281/zenodo.18615600
+https://doi.org/10.5281/zenodo.20044740
 
 ORCID (Author Identity):
 https://orcid.org/0009-0009-4806-1949
@@ -41,3 +40,15 @@ RULES:
 If missing:
 STOP
 Apply Stop Authority.
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

@@ -477,7 +477,7 @@ In Termux, run exactly:
 Bash
 Copy code
 cd ~/HHI
-git clone https://github.com/hollowhouseinstitute/HHIaudits.git
+git clone https://github.com/Hollow-house-institute/HHIaudits.git
 What should happen
 Git downloads the repo
 A new folder appears called HHIaudits

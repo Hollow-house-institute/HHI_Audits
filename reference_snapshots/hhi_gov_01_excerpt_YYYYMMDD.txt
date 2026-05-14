@@ -427,9 +427,8 @@ Partially Verified:
 
 License references point to external repositories:
 
-https://github.com/hollowhouseinstitute/HHI_Language_Licensing
+https://github.com/Hollow-house-institute/HHI_Language_Licensing
 
-https://github.com/hollowhouseinstitute/Master_License_Suite
 
 
 TODO: Cannot verify these repositories exist or contain referenced licenses without repository access

@@ -12,7 +12,7 @@ Governance Standard: https://github.com/Hollow-house-institute/HHI_GOV_01
 
 SYSTEM MAP: https://github.com/Hollow-house-institute/HHI_GOV_01/blob/main/SYSTEM_MAP.md
 
-DOI: https://doi.org/10.5281/zenodo.18615600
+DOI: https://doi.org/10.5281/zenodo.20044740
 
 ORCID: https://orcid.org/0009-0009-4806-1949
 
@@ -22,3 +22,15 @@ Glossary Version: v1.3.0
 
 Authority is enforced through explicit Decision Boundaries, escalation thresholds, and Stop Authority conditions.
 
+
+https://github.com/Hollow-house-institute
+https://github.com/amypbui
+
+Amy Pierce Bui
+Hollow House Institute
+GitHub
+https://github.com/Hollow-house-institute
+https://github.com/Hollow-house-institute/Hollow_House_Standards_Library/agents?author=amypbui
+https://github.com/amypbui
+https://github.com/amypbui/HHI_Career_Runtime
+https://github.com/Hollow-house-institute/Master_License_Suite

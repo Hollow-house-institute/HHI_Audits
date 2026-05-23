@@ -1,0 +1,10 @@
+HHI Ecosystem Alignment v1.1.0	Latest	v1.1.0-ecosystem-alignment	2026-05-15T15:50:33Z
+Governance State v1.0.0 (FULLY_GOVERNED)		governance-state-v1.0.0	2026-05-05T18:36:57Z
+Execution-Time Governance v1.0.0		execution-time-governance-v1.0.0	2026-05-05T18:09:24Z
+Execution-Time Governance Audit Proof v1.0.0		execution-audit-proof-v1.0.0	2026-05-05T16:40:16Z
+Execution-Time Governance Audit Proof — v1.0.1		v1.0.1-execution-governance-proof	2026-05-04T19:24:45Z
+Execution-Time Governance Audit Proof — v1		v1.0.0-execution-governance-proof	2026-05-04T18:43:43Z
+v1.0.2 – Human Regulator Control Profile		v1.0.2-human-regulator-profile	2026-02-15T03:58:38Z
+HHI Interaction Controls — Governance Baseline		v0.2.0	2026-02-10T08:17:48Z
+v1.0.0 — Governance Lock		v1.0.0-governance-lock	2026-01-19T02:46:59Z
+HHI-GOV-01 v1.0 — Governance as Behavioral Infrastructure		v1.0.0-governance-standard	2026-01-16T04:39:37Z

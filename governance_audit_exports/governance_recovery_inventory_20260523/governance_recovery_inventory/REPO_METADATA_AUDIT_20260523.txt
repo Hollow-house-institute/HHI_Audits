@@ -1,0 +1,331 @@
+===== /data/data/com.termux/files/home/.config/HHI_ORG_README =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/.github (fetch)
+origin	https://github.com/Hollow-house-institute/.github (push)
+BRANCH:
+main
+LAST_COMMITS:
+dbb91fb Refactor org README for cleaner runtime governance architecture presentation
+e8da5c1 Add governance telemetry visual to org profile
+3876e6f Update README.md
+
+===== /data/data/com.termux/files/home/HHI/Ai_Human_Relations_Datasets =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Ai_Human_Relations_Datasets.git (fetch)
+origin	https://github.com/Hollow-house-institute/Ai_Human_Relations_Datasets.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+8e69c46 research: add runtime governance flow and operational scenario appendices
+1d1dd78 research: add governance survivability and runtime artifact appendices
+58cf178 Add HHI governed authorship provenance artifacts
+
+===== /data/data/com.termux/files/home/HHI/Governance_Infrastructure_Layer =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Governance_Infrastructure_Layer.git (fetch)
+origin	https://github.com/Hollow-house-institute/Governance_Infrastructure_Layer.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+b2152aa governance: add ecosystem observability and replay inventories
+5c2adde governance: add namespace normalization guidance
+98d5530 governance: define archive lineage boundaries
+
+===== /data/data/com.termux/files/home/HHI/HHI_Behavioral_Drift_Monitor =====
+REMOTE:
+origin_old	git@github.com:Hollow-house-institute/HHI_Behavioral_Drift_Monitor.git (fetch)
+origin_old	git@github.com:Hollow-house-institute/HHI_Behavioral_Drift_Monitor.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+e82c245 Add stop authority continuity evidence artifact
+12022fd Add HHI governed authorship provenance artifacts
+749c947 Normalize runtime artifact exclusions and repository continuity state
+
+===== /data/data/com.termux/files/home/HHI/HHI_Behavioral_Governance_Audit =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Behavioral_Governance_Audit.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Behavioral_Governance_Audit.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+c12e1c7 Add HHI governed authorship provenance artifacts
+8dcd0af Normalize runtime artifact exclusions and repository continuity state
+7869802 Normalize canonical organization namespace references across governance infrastructure
+
+===== /data/data/com.termux/files/home/HHI/HHI_CAISI_Governance_Framework =====
+REMOTE:
+origin	git@github.com:Hollow-house-institute/HHI_CAISI_Governance_Framework.git (fetch)
+origin	git@github.com:Hollow-house-institute/HHI_CAISI_Governance_Framework.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+9387798 Add HHI governed authorship provenance artifacts
+c4a3818 Normalize runtime artifact exclusions and repository continuity state
+67df3d2 Normalize canonical organization namespace references across governance infrastructure
+
+===== /data/data/com.termux/files/home/HHI/HHI_Career_Runtime =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Career_Runtime.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Career_Runtime.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+9cd2a3f Bind canonical DOI provenance to README
+7cfb8b4 Add repository integrity manifest
+38a7de9 Initialize HHI Career Runtime provenance layer
+
+===== /data/data/com.termux/files/home/HHI/HHI_GOV_01 =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_GOV_01.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_GOV_01.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+fc5999f governance: formalize telemetry migration state
+648a0cd governance: establish telemetry consolidation policy
+db43074 governance: establish canonical telemetry ownership and operational boundaries
+
+===== /data/data/com.termux/files/home/HHI/HHI_Governance_Failure_Observatory =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Governance_Failure_Observatory.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Governance_Failure_Observatory.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+c6e2f8a Add HHI governed authorship provenance artifacts
+a4ef0fb Add governance failure observatory overview structure
+6fd238b Initialize HHI Governance Failure Observatory
+
+===== /data/data/com.termux/files/home/HHI/HHI_Human_Continuity_Archive =====
+REMOTE:
+BRANCH:
+main
+LAST_COMMITS:
+25cd004 archive replay-capable behavioral provenance continuity session
+ee0630b initialize human continuity archive and lineage logging infrastructure
+
+===== /data/data/com.termux/files/home/HHI/HHI_Local_AI_Governance_Framework =====
+REMOTE:
+origin	git@github.com:Hollow-house-institute/HHI_Local_AI_Governance_Framework.git (fetch)
+origin	git@github.com:Hollow-house-institute/HHI_Local_AI_Governance_Framework.git (push)
+BRANCH:
+LAST_COMMITS:
+06bb1b0 Add HHI governed authorship provenance artifacts
+f1c7369 Normalize runtime artifact exclusions and repository continuity state
+1ebc2b6 Update README with v0.3.0 Zenodo DOI
+
+===== /data/data/com.termux/files/home/HHI/HHI_Runtime_Racing_Governance =====
+REMOTE:
+origin	https://github.com/amypbui/HHI_Runtime_Racing_Governance.git (fetch)
+origin	https://github.com/amypbui/HHI_Runtime_Racing_Governance.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+d00b119 Add HHI governed authorship provenance artifacts
+b3d8063 Add telemetry-aware governance runtime responses
+424edbf Connect governance runtime to telemetry and explainability engine
+
+===== /data/data/com.termux/files/home/HHI/Hollow_House_Standards_Library =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Hollow_House_Standards_Library.git (fetch)
+origin	https://github.com/Hollow-house-institute/Hollow_House_Standards_Library.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+7ddb264 Add HHI governed authorship provenance artifacts
+3ad081f Add authority graph interoperability and lineage mappings
+3f1bca8 Add HHI authority graph governance architecture
+
+===== /data/data/com.termux/files/home/HHI/Longitudinal_Behavioral_Governance =====
+REMOTE:
+origin	git@github.com:Hollow-house-institute/Longitudinal_Behavioral_Governance.git (fetch)
+origin	git@github.com:Hollow-house-institute/Longitudinal_Behavioral_Governance.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+964da86 runtime: add longitudinal telemetry, OTLP export, and replay continuity validation
+81d5ae9 runtime: add governance telemetry, replay validation, and assurance infrastructure
+6e09b67 Add runtime recovery continuity evidence
+
+===== /data/data/com.termux/files/home/HHI/Research_Papers =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Research_Papers.git (fetch)
+origin	https://github.com/Hollow-house-institute/Research_Papers.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+6edb9b5 audit: log DOI package governance embedding sequence
+a01f97f governance: embed publication controls into DOI packages
+2508c8e audit: log whitepaper alignment normalization sequence
+
+===== /data/data/com.termux/files/home/HHI/artifacts =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+96ff928 evidence: add observability normalization continuity notes
+967843f Add behavioral drift pressure test governance artifact
+d7dc58d Normalize audits README ecosystem structure
+
+===== /data/data/com.termux/files/home/HHI/privacy_ops =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Privacy_Operations.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Privacy_Operations.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+21ef13a Add HHI governed authorship provenance artifacts
+7763573 Normalize runtime artifact exclusions and repository continuity state
+f72776a Normalize canonical organization namespace references across governance infrastructure
+
+===== /data/data/com.termux/files/home/HHI/repos/HHI_Audits =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+79eea5e Add continuity export bundle and checksum manifest
+6c6c0e2 Checkpoint local governance continuity evidence
+7b5eebc Archive governance continuity interaction evidence
+
+===== /data/data/com.termux/files/home/HHI_Audits =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Audits.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+ec6af18 audit: log repository recovery and classification sequence
+e022d21 audit: add local repository surface inventory evidence
+f711a7f audit: log longitudinal governance continuity evidence
+
+===== /data/data/com.termux/files/home/HHI_Authority_Feed =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Authority_Feed.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Authority_Feed.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+c45c309 log: block comment (2026-04-25)
+d309a9b fix: adjust weight thresholds
+86b51b4 setup: comment engine + logging + weighting system
+
+===== /data/data/com.termux/files/home/HHI_CPRA_Readiness_Acceleration_Suite =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_CPRA_Readiness_Acceleration_Suite.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_CPRA_Readiness_Acceleration_Suite.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+f9506da Correct canonical standards library authority reference
+f56b6a8 Repair checksum runtime script corruption and normalize CI path handling
+a37fe2b Initialize checksum directory during CI runtime execution
+
+===== /data/data/com.termux/files/home/HHI_Career_Runtime =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Career_Runtime.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Career_Runtime.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+73cc33d Add governance runtime proof visuals to portfolio
+874d23a Add executive overview, capability sheet, visuals section, and application tracking
+b2c46a5 Add governance case study evidence artifacts
+
+===== /data/data/com.termux/files/home/HHI_Governance =====
+REMOTE:
+BRANCH:
+main
+LAST_COMMITS:
+NO_COMMITS
+
+===== /data/data/com.termux/files/home/HHI_Local_Runtime_Governance_Monitor =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Local_AI_Governance_Framework.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Local_AI_Governance_Framework.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+1ebc2b6 Update README with v0.3.0 Zenodo DOI
+db2137b Add Gemma runtime governance evidence and telemetry artifacts
+c2abc98 Add Zenodo citation for runtime governance release
+
+===== /data/data/com.termux/files/home/HHI_Monetization_System =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Monetization_System.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Monetization_System.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+4cface8 Add objection handling, follow-up, and negotiation scripts
+f272d02 Add pricing, outreach, and demo flow for toolkit sales
+1473851 Build sellable HHI Governance Toolkit v1 (README, script, demo)
+
+===== /data/data/com.termux/files/home/HHI_Runtime_Proof =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_Runtime_Proof.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_Runtime_Proof.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+6722cdf Add authority graph runtime evidence mapping
+805b073 Normalize runtime proof README ecosystem structure
+002d16b Standardize top five HHI repository navigation
+
+===== /data/data/com.termux/files/home/HHI_SECURE_Data_Act_Governance_Suite =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/HHI_SECURE_Data_Act_Governance_Suite.git (fetch)
+origin	https://github.com/Hollow-house-institute/HHI_SECURE_Data_Act_Governance_Suite.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+f3636b2 Initialize SECURE Data Act governance infrastructure suite
+
+===== /data/data/com.termux/files/home/Master_License_Suite =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Master_License_Suite.git (fetch)
+origin	https://github.com/Hollow-house-institute/Master_License_Suite.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+5eeb40a Normalize Master License Suite authority references
+daecd05 Normalize runtime artifact exclusions and repository continuity state
+196003b Normalize canonical organization namespace references across governance infrastructure
+
+===== /data/data/com.termux/files/home/Montez-Execution-Governance-Case-Study =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Montez-Execution-Governance-Case-Study.git (fetch)
+origin	https://github.com/Hollow-house-institute/Montez-Execution-Governance-Case-Study.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+f6b7ead Fix CSV: remove duplicate Day 5, add Day 6-7, quote notes
+ba3f2a7 Update logging schema: added time_to_start_sec and normalized fields
+3440a46 Day 5: low resistance, completed, 1 clean name
+
+===== /data/data/com.termux/files/home/Research_Papers =====
+REMOTE:
+origin	https://github.com/Hollow-house-institute/Research_Papers.git (fetch)
+origin	https://github.com/Hollow-house-institute/Research_Papers.git (push)
+BRANCH:
+main
+LAST_COMMITS:
+1777e07 Add DOCX source continuity for DOI package
+abc35a1 Add DOI-ready military AI governance white paper package
+124aced sync: authority + audit + enforcement layer
+
+===== /data/data/com.termux/files/home/hhi_resume =====
+REMOTE:
+origin	https://github.com/amypbui/HHI_Career_Runtime (fetch)
+origin	https://github.com/amypbui/HHI_Career_Runtime (push)
+BRANCH:
+main
+LAST_COMMITS:
+dbe140d Expand portfolio with services, challenge work, resume, and architecture evidence
+57209fd Transform career runtime into operational governance portfolio
+2a695d5 Add freelance governance positioning and professional resume infrastructure
+

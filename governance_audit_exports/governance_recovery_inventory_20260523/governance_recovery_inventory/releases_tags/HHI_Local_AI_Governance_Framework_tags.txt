@@ -1,0 +1,3 @@
+v0.1.0
+v0.1.1
+local-ai-governance-runtime-v0.2.0

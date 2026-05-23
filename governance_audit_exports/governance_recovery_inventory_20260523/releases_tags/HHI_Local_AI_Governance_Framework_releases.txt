@@ -1,0 +1,4 @@
+HHI Local AI Governance Runtime v0.3.0	Latest	local-ai-governance-runtime-v0.3.0	2026-05-10T04:18:42Z
+HHI Local AI Governance Runtime v0.2.0		local-ai-governance-runtime-v0.2.0	2026-05-09T00:36:42Z
+HHI_Local_AI_Governance_Framework v0.1.1		v0.1.1	2026-05-08T20:56:59Z
+HHI_Local_AI_Governance_Framework v0.1.0		v0.1.0	2026-05-07T20:15:03Z

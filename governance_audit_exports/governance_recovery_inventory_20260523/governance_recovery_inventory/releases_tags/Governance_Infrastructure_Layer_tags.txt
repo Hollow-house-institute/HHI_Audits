@@ -1,4 +1,0 @@
-v1.0.0
-v1.0.0-ecosystem-architecture
-v1.1.0-ecosystem-alignment
-v0.2.0-governance-blueprint

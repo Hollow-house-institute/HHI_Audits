@@ -1,2 +1,0 @@
-HHI Provenance DOI Release	Latest	v0.1.1-doi-provenance	2026-05-20T08:41:52Z
-HHI Ecosystem Alignment v1.1.0		v1.1.0-ecosystem-alignment	2026-05-15T15:50:40Z

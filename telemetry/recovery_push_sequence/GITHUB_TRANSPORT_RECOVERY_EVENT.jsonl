@@ -1,1 +1,2 @@
 {"event":"github_transport_recovery","timestamp":"2026-05-23T20:32:29Z","status":"normalized","continuity":"preserved"}
+{"event":"final_transport_recovery_log","timestamp":"2026-05-23T20:34:54Z","status":"completed","transport_state":"normalized","continuity":"preserved","replay_survivability":"offline_preserved"}

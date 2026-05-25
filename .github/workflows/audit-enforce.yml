@@ -2,27 +2,31 @@ name: audit-enforce
 
 on:
   push:
-    branches: [ "*" ]
+    branches:
+      - "*"
 
 jobs:
   enforce-checksum:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-- name: Generate fresh checksums
-  run: |
-    chmod +x audits/checksums/generate_checksums.sh
-    ./audits/checksums/generate_checksums.sh
-- name: Compare with baseline
-  run: |
-    if diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
-      echo "✅ No drift detected"
-    else
-      echo "❌ Checksum drift detected"
-      diff audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt
-      echo "non-blocking"
-    fi
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate fresh checksums
+        run: |
+          chmod +x audits/checksums/generate_checksums.sh
+          ./audits/checksums/generate_checksums.sh
+
+      - name: Compare with baseline
+        run: |
+          if diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
+            echo "No drift detected"
+          else
+            echo "Checksum drift detected"
+            diff audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt || true
+            echo "Non-blocking drift logged"
+          fi
 
       - name: Cleanup
-        run: rm audits/checksums/sha256_manifest_new.txt
+        run: rm -f audits/checksums/sha256_manifest_new.txt

@@ -1,0 +1,159 @@
+enforce-checksum	Set up job	﻿2026-05-25T01:35:37.2406638Z Current runner version: '2.334.0'
+enforce-checksum	Set up job	2026-05-25T01:35:37.2434748Z ##[group]Runner Image Provisioner
+enforce-checksum	Set up job	2026-05-25T01:35:37.2435626Z Hosted Compute Agent
+enforce-checksum	Set up job	2026-05-25T01:35:37.2436151Z Version: 20260213.493
+enforce-checksum	Set up job	2026-05-25T01:35:37.2436881Z Commit: 5c115507f6dd24b8de37d8bbe0bb4509d0cc0fa3
+enforce-checksum	Set up job	2026-05-25T01:35:37.2437550Z Build Date: 2026-02-13T00:28:41Z
+enforce-checksum	Set up job	2026-05-25T01:35:37.2438196Z Worker ID: {eb2525d3-def0-4021-8095-526cae2eb89a}
+enforce-checksum	Set up job	2026-05-25T01:35:37.2438922Z Azure Region: eastus2
+enforce-checksum	Set up job	2026-05-25T01:35:37.2439527Z ##[endgroup]
+enforce-checksum	Set up job	2026-05-25T01:35:37.2440812Z ##[group]Operating System
+enforce-checksum	Set up job	2026-05-25T01:35:37.2441783Z Ubuntu
+enforce-checksum	Set up job	2026-05-25T01:35:37.2442294Z 24.04.4
+enforce-checksum	Set up job	2026-05-25T01:35:37.2442735Z LTS
+enforce-checksum	Set up job	2026-05-25T01:35:37.2443275Z ##[endgroup]
+enforce-checksum	Set up job	2026-05-25T01:35:37.2443800Z ##[group]Runner Image
+enforce-checksum	Set up job	2026-05-25T01:35:37.2444373Z Image: ubuntu-24.04
+enforce-checksum	Set up job	2026-05-25T01:35:37.2444882Z Version: 20260518.149.1
+enforce-checksum	Set up job	2026-05-25T01:35:37.2445923Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260518.149/images/ubuntu/Ubuntu2404-Readme.md
+enforce-checksum	Set up job	2026-05-25T01:35:37.2447579Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260518.149
+enforce-checksum	Set up job	2026-05-25T01:35:37.2448553Z ##[endgroup]
+enforce-checksum	Set up job	2026-05-25T01:35:37.2449653Z ##[group]GITHUB_TOKEN Permissions
+enforce-checksum	Set up job	2026-05-25T01:35:37.2451967Z Contents: read
+enforce-checksum	Set up job	2026-05-25T01:35:37.2452562Z Metadata: read
+enforce-checksum	Set up job	2026-05-25T01:35:37.2453184Z Packages: read
+enforce-checksum	Set up job	2026-05-25T01:35:37.2453713Z ##[endgroup]
+enforce-checksum	Set up job	2026-05-25T01:35:37.2455831Z Secret source: Actions
+enforce-checksum	Set up job	2026-05-25T01:35:37.2456568Z Prepare workflow directory
+enforce-checksum	Set up job	2026-05-25T01:35:37.2789721Z Prepare all required actions
+enforce-checksum	Set up job	2026-05-25T01:35:37.2827300Z Getting action download info
+enforce-checksum	Set up job	2026-05-25T01:35:37.5887724Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+enforce-checksum	Set up job	2026-05-25T01:35:37.8558799Z Complete job name: enforce-checksum
+enforce-checksum	Checkout repository	﻿2026-05-25T01:35:37.9382471Z ##[group]Run actions/checkout@v4
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9383333Z with:
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9383768Z   repository: Hollow-house-institute/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9384514Z   token: ***
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9384924Z   ssh-strict: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9385320Z   ssh-user: git
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9385704Z   persist-credentials: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9386144Z   clean: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9386547Z   sparse-checkout-cone-mode: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9387014Z   fetch-depth: 1
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9387397Z   fetch-tags: false
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9387775Z   show-progress: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9388167Z   lfs: false
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9388520Z   submodules: false
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9388916Z   set-safe-directory: true
+enforce-checksum	Checkout repository	2026-05-25T01:35:37.9389499Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0513041Z Syncing repository: Hollow-house-institute/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0514880Z ##[group]Getting Git version info
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0515547Z Working directory is '/home/runner/work/HHI_Audits/HHI_Audits'
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0516611Z [command]/usr/bin/git version
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0592160Z git version 2.54.0
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0617215Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0632222Z Temporarily overriding HOME='/home/runner/work/_temp/6103514d-5fb4-4d73-b6af-f8438cec47aa' before making global git config changes
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0633608Z Adding repository directory to the temporary git global config as a safe directory
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0638284Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/HHI_Audits/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0688068Z Deleting the contents of '/home/runner/work/HHI_Audits/HHI_Audits'
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0691822Z ##[group]Initializing the repository
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0695817Z [command]/usr/bin/git init /home/runner/work/HHI_Audits/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0789988Z hint: Using 'master' as the name for the initial branch. This default branch name
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0791249Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0792672Z hint: to use in all of your new repositories, which will suppress this warning,
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0793749Z hint: call:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0794302Z hint:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0795328Z hint: 	git config --global init.defaultBranch <name>
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0796101Z hint:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0796633Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0797513Z hint: 'development'. The just-created branch can be renamed via this command:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0798187Z hint:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0798604Z hint: 	git branch -m <name>
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0799036Z hint:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0799674Z hint: Disable this message with "git config set advice.defaultBranchName false"
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0801041Z Initialized empty Git repository in /home/runner/work/HHI_Audits/HHI_Audits/.git/
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0806051Z [command]/usr/bin/git remote add origin https://github.com/Hollow-house-institute/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0846498Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0847255Z ##[group]Disabling automatic garbage collection
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0850479Z [command]/usr/bin/git config --local gc.auto 0
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0879834Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0880528Z ##[group]Setting up auth
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0886854Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.0921629Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1260530Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1290176Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1520809Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1551667Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1789165Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1826155Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1826897Z ##[group]Fetching the repository
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.1835197Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +e4ad3b88f08cec07f37a696f6170dedbe557d2c9:refs/remotes/origin/main
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4575084Z From https://github.com/Hollow-house-institute/HHI_Audits
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4576143Z  * [new ref]         e4ad3b88f08cec07f37a696f6170dedbe557d2c9 -> origin/main
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4612438Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4613492Z ##[group]Determining the checkout info
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4614665Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4619891Z [command]/usr/bin/git sparse-checkout disable
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4664149Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4695539Z ##[group]Checking out the ref
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4696501Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4860892Z Switched to a new branch 'main'
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4863134Z branch 'main' set up to track 'origin/main'.
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4870279Z ##[endgroup]
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4910026Z [command]/usr/bin/git log -1 --format=%H
+enforce-checksum	Checkout repository	2026-05-25T01:35:38.4933626Z e4ad3b88f08cec07f37a696f6170dedbe557d2c9
+enforce-checksum	Generate fresh checksums	﻿2026-05-25T01:35:38.5139596Z ##[group]Run chmod +x audits/checksums/generate_checksums.sh
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5140496Z ^[[36;1mchmod +x audits/checksums/generate_checksums.sh^[[0m
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5141322Z ^[[36;1m./audits/checksums/generate_checksums.sh^[[0m
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5182789Z shell: /usr/bin/bash -e {0}
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5183327Z ##[endgroup]
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5296682Z ----------------------------------
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5297371Z HHI Checksum Generation (Structural)
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5298234Z ----------------------------------
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5298970Z Cleaning previous manifest...
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.5309429Z Generating checksums...
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.7993744Z ----------------------------------
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.7995408Z Checksums written to: audits/checksums/sha256_manifest.txt
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.7996991Z ----------------------------------
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.7998033Z Sample output:
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8005458Z 02b9695dfc871b75fa268fc9ecc6b25e5cdea2035a3b6714ebdc6237fd02cbd3  ./governance_audit_exports/repo_recovery_sequence_20260523/REPO_RECOVERY_AND_CLASSIFICATION_SEQUENCE_20260523.md
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8010431Z 037ae6fffb97358c4b2e44755a52257b324bee01c57b93319cfaf4c24941054c  ./inputs/transcripts/CHAT_UNSTABLE_MIRRORS_EVIDENCE.md
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8013817Z 037ae6fffb97358c4b2e44755a52257b324bee01c57b93319cfaf4c24941054c  ./outputs/chat_artifacts/CHAT_UNSTABLE_MIRRORS_EVIDENCE.md
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8016787Z 055a298ec4e274823c4263b62537fbbe4db03f9cd1566926d186f804667fac2b  ./inputs/transcripts/advisor_bot_chat_02.txt
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8020722Z 061aedc23f0dfd7238e9046bc185b49fb36a698270e290310e08ce65f133bd59  ./governance_audit_exports/terminology_lineage_20260523/signals/FIRST_USE_TERMINOLOGY_DISCOVERY.log
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8023984Z ----------------------------------
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8024948Z Checksum generation complete
+enforce-checksum	Generate fresh checksums	2026-05-25T01:35:38.8025801Z ----------------------------------
+enforce-checksum	Compare with baseline	﻿2026-05-25T01:35:38.8105811Z ##[group]Run if diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8108973Z ^[[36;1mif diff -q audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt; then^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8111332Z ^[[36;1m  echo "No drift detected"^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8112543Z ^[[36;1melse^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8113556Z ^[[36;1m  echo "Checksum drift detected"^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8115660Z ^[[36;1m  diff audits/checksums/sha256_manifest.txt audits/checksums/sha256_manifest_new.txt || true^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8117904Z ^[[36;1m  echo "Non-blocking drift logged"^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8119161Z ^[[36;1mfi^[[0m
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8158492Z shell: /usr/bin/bash -e {0}
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8159562Z ##[endgroup]
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8306073Z diff: audits/checksums/sha256_manifest_new.txt: No such file or directory
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8308616Z Checksum drift detected
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8318897Z diff: audits/checksums/sha256_manifest_new.txt: No such file or directory
+enforce-checksum	Compare with baseline	2026-05-25T01:35:38.8321004Z Non-blocking drift logged
+enforce-checksum	Cleanup	﻿2026-05-25T01:35:38.8386013Z ##[group]Run rm -f audits/checksums/sha256_manifest_new.txt
+enforce-checksum	Cleanup	2026-05-25T01:35:38.8387968Z ^[[36;1mrm -f audits/checksums/sha256_manifest_new.txt^[[0m
+enforce-checksum	Cleanup	2026-05-25T01:35:38.8425755Z shell: /usr/bin/bash -e {0}
+enforce-checksum	Cleanup	2026-05-25T01:35:38.8426740Z ##[endgroup]
+enforce-checksum	Post Checkout repository	﻿2026-05-25T01:35:38.8695214Z Post job cleanup.
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9681259Z [command]/usr/bin/git version
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9719114Z git version 2.54.0
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9762492Z Temporarily overriding HOME='/home/runner/work/_temp/2d7b5c9b-ba15-45dd-874d-d9f62c47da71' before making global git config changes
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9765387Z Adding repository directory to the temporary git global config as a safe directory
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9768100Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/HHI_Audits/HHI_Audits
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9804910Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:38.9839102Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0077420Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0102419Z http.https://github.com/.extraheader
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0117537Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0152552Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0385645Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+enforce-checksum	Post Checkout repository	2026-05-25T01:35:39.0419781Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+enforce-checksum	Complete job	﻿2026-05-25T01:35:39.0786285Z Cleaning up orphan processes
+enforce-checksum	Complete job	2026-05-25T01:35:39.1275791Z ##[warning]Node.js 20 actions are deprecated. The following actions are running on Node.js 20 and may not work as expected: actions/checkout@v4. Actions will be forced to run with Node.js 24 by default starting June 2nd, 2026. Node.js 20 will be removed from the runner on September 16th, 2026. Please check if updated versions of these actions are available that support Node.js 24. To opt into Node.js 24 now, set the FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true environment variable on the runner or in your workflow file. Once Node.js 24 becomes the default, you can temporarily opt out by setting ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

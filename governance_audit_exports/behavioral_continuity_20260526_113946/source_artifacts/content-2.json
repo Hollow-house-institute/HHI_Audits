@@ -1,0 +1,62 @@
+{
+  "Governance Telemetry": {
+    "evidence": [
+      "Audit logs capturing actor identity, actions, timestamps and outcomes",
+      "Telemetry data from AI systems (performance metrics, risk indicators)"
+    ]
+  },
+  "Decision Boundary": {
+    "evidence": [
+      "Documentation of permissible actions, roles and responsibilities",
+      "Policy documents defining limits for AI decision-making"
+    ]
+  },
+  "Stop Authority": {
+    "evidence": [
+      "Records of override events and decommissioning actions",
+      "Logs of manual interventions and escalation triggers"
+    ]
+  },
+  "Interaction Trace": {
+    "evidence": [
+      "Step-by-step logs of interactions, including inputs, outputs and context",
+      "System execution traces linked to user or operator actions"
+    ]
+  },
+  "Continuous Assurance": {
+    "evidence": [
+      "Monitoring reports, test results and performance metrics",
+      "Evidence of regular risk assessments and monitoring cycles"
+    ]
+  },
+  "Longitudinal Accountability": {
+    "evidence": [
+      "Versioned records of decisions and system changes",
+      "Historical audit logs showing how decisions and metrics evolved over time"
+    ]
+  },
+  "Escalation Controls": {
+    "evidence": [
+      "Escalation logs showing when and how issues were escalated",
+      "Documentation of escalation procedures and thresholds"
+    ]
+  },
+  "Intervention Threshold": {
+    "evidence": [
+      "Predefined thresholds for intervention and associated decision criteria",
+      "Evidence that interventions occurred when thresholds were exceeded"
+    ]
+  },
+  "Authority Persistence": {
+    "evidence": [
+      "Records demonstrating that human authority and oversight persist throughout the AI lifecycle",
+      "Logs showing handoffs and continuity of authority across different operators"
+    ]
+  },
+  "Governance Stability Index": {
+    "evidence": [
+      "Computed metrics summarizing governance performance over time",
+      "Reports that aggregate telemetry data to assess governance effectiveness"
+    ]
+  }
+}

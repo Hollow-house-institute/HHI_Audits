@@ -1,0 +1,56 @@
+{
+  "description": "Template for recording Human\u2011in\u2011the\u2011Loop (HITL) interventions in AI systems.",
+  "fields": [
+    {
+      "name": "actor",
+      "type": "string",
+      "description": "Identity of the human overseer or operator performing the intervention."
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "description": "Role or function of the actor (e.g. clinician, risk officer, engineer)."
+    },
+    {
+      "name": "decision_boundary",
+      "type": "string",
+      "description": "Description of the permissible boundaries and constraints relevant to this decision."
+    },
+    {
+      "name": "action_taken",
+      "type": "string",
+      "description": "Specific intervention performed (e.g. approve, override, pause, adjust parameters)."
+    },
+    {
+      "name": "escalation_state",
+      "type": "string",
+      "description": "Current escalation state (e.g. normal, warning, critical)."
+    },
+    {
+      "name": "stop_authority_trigger",
+      "type": "boolean",
+      "description": "Whether the intervention triggered stop authority (true) or not (false)."
+    },
+    {
+      "name": "timestamp",
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO\u00a08601 timestamp of the intervention event."
+    },
+    {
+      "name": "rationale",
+      "type": "string",
+      "description": "Human\u2011readable explanation for the intervention, including reasons for override or escalation."
+    },
+    {
+      "name": "intervention_result",
+      "type": "string",
+      "description": "Outcome of the intervention (e.g. system paused, decision amended, alert escalated)."
+    },
+    {
+      "name": "additional_metadata",
+      "type": "object",
+      "description": "Optional additional metadata (e.g. request identifiers, version numbers, contextual factors)."
+    }
+  ]
+}

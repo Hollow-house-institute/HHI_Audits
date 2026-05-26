@@ -1,0 +1,45 @@
+{
+  "description": "Schema for governance telemetry logs used in AI systems.",
+  "type": "object",
+  "properties": {
+    "actor": {
+      "type": "string",
+      "description": "Identity of the person or system initiating the action, supporting accountability."
+    },
+    "decision_boundary": {
+      "type": "string",
+      "description": "Boundaries or constraints that govern the AI decision at the moment of execution."
+    },
+    "escalation_state": {
+      "type": "string",
+      "description": "Current escalation status (e.g. normal, warning, critical) reflecting risk containment."
+    },
+    "stop_authority_trigger": {
+      "type": "boolean",
+      "description": "Indicates whether a stop authority mechanism has been triggered, evidencing human override."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO\u00a08601 timestamp providing traceability for the event."
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Explanation of the reasoning behind the action or decision, supporting audit defensibility."
+    },
+    "intervention_result": {
+      "type": "string",
+      "description": "Outcome of the action or intervention, used for continuous assurance."
+    },
+    "additional_metadata": {
+      "type": "object",
+      "description": "Optional metadata (e.g. model version, input features, risk scores) relevant for audit."
+    }
+  },
+  "required": [
+    "actor",
+    "decision_boundary",
+    "timestamp",
+    "rationale"
+  ]
+}

@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 runtime/logs/*.pid
 logs/*.pid
+ALL_LOCAL_REPO_SURFACES_*.txt
+GOVERNANCE_EXPORT_SEPARATION_POLICY.md
